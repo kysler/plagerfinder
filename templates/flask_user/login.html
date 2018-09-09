@@ -51,14 +51,11 @@
         {% endif %}
     </div>
 <div class="row">
-   <div class="col-2"> 
+       # Remember me #}
       {% if user_manager.USER_ENABLE_REMEMBER_ME %}
     {{ render_checkbox_field(login_form.remember_me, tabindex=130) }}
     {% endif %}
      </div>
-    <div class="col-10">
-    {# Remember me #}
-    </div>
     </div>
     {# Submit button #}
     {{ render_submit_field(form.submit, tabindex=180) }}
