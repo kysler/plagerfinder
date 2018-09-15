@@ -529,3 +529,27 @@ hr {
     margin-top: 20px;
     margin-left: 40px;
 }
+
+.modal-body input {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #42a5f5;
+  width: 60%;
+  border: 0;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+    margin-left: 25px;
+}
+
+.modal-body label{
+    margin: 15px;
+}
+
+.modal-body button:hover {background-color: #337ab7;}
