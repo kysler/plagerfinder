@@ -11,6 +11,11 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+   <!-- modal box-->  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
     <!--icon css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -61,7 +66,43 @@
         <br>
            <center> <h5>NOW!</h5></center>
             <hr width="90%">
-        <button>Premium</button>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	            <!-- modal box-->
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+    
+      <!-- Modal content-->
+      <div class="modal-content modal-lg">
+        <div class="modal-header modal-lg">
+            <h4 class="modal-title">Get Premium Subscriptions</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body modal-lg">
+          <h5>Select your preferred payment</h5>
+            <form>
+                <div class="row">
+                    <div class="col-lg-6">
+            <label for="m">Monthly Subscription</label><br>
+            <input type="button" id="m" value="aaaa" style="display: inline-block;"><br><br><br>
+            <label for="a">Monthly Subscription</label><br>
+            <input type="button" id="a" value="aaaa" style="display: inline-block;"><br>
+</div>
+                    <div class="col-lg-6">
+            <label for="m">Monthly Subscription</label><br>
+            <input type="button" id="m" value="aaaa" style="display: inline-block;"><br><br><br>
+            <label for="a">Monthly Subscription</label><br>
+            <input type="button" id="a" value="aaaa" style="display: inline-block;">
+                        </div>
+                    </div>
+            </form>
+        </div>
+        <div class="modal-footer modal-lg">
+          <button class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
         </div>
     </div>
     <div class="col-6">
