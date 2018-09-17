@@ -32,11 +32,11 @@
     {% if user_manager.USER_ENABLE_EMAIL and user_manager.USER_ENABLE_USERNAME %}
         {{ render_field(form.email, tabindex=220) }}
     {% endif %}
-            <p>pass</p>
+           
             {{ render_field(form.password, tabindex=230) }}
 
     {% if user_manager.USER_REQUIRE_RETYPE_PASSWORD %}
-            <p>repass</p>
+            
         {{ render_field(form.retype_password, tabindex=240) }}
     {% endif %}
 
