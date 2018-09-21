@@ -28,7 +28,7 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Plagiarism Finder</a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto"
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-0 mx-lg-1">
             	{% if call_or_get(current_user.is_authenticated) %}
                 <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ url_for('user.edit_user_profile') }}">{{ current_user.username or current_user.email }}</a>
